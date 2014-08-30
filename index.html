@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>ExcepApps, Inc</title>
+    <meta name="description" content="...">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="deps/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="deps/bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="deps/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="deps/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="deps/bower_components/underscore/underscore-min.js"></script>
+    <script src="deps/bower_components/backbone/backbone.js"></script>
+    <script src="//www.parsecdn.com/js/parse-1.2.19.min.js"></script>
+  </head>
+  <body>
+    <div id="spa"></div>
+    <script id="default-view" type="text/template">
+      <div class="container">
+        <header class="header">
+          <h1>ExcepApps, Inc</h1>
+        </header>
+        <section>
+          <div class="row">
+            <div class="col-sm-6 col-md-4 col-md-offset-4">
+              <h1 class="text-center login-title">Sign in to continue to Bootsnipp</h1>
+                <div class="account-wall">
+                  <form class="form-signin">
+                    <input type="text" class="form-control" placeholder="Email" required autofocus>
+                    <input type="password" class="form-control" placeholder="Password" required>
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">
+                    Sign in</button>
+                    <label class="checkbox pull-left">
+                      <input type="checkbox" value="remember-me">
+                    Remember me
+                    </label>
+                    <a href="#" class="pull-right need-help">Need help? </a><span class="clearfix"></span>
+                  </form>
+                </div>
+              <a href="#" class="text-center new-account">Create an account </a>
+            </div>
+          </div>
+        </section>
+        <footer class="footer">
+          <p>ExcepApps, Inc | 2014</p>
+        </footer>
+      </div>
+    </script>
+    <script id="data-view" type="text/template">
+      <h1>Data...</h1>
+    </script>
+    <script src="js/core.js"></script>
+  </body>
+</html>
